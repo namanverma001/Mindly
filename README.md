@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Full Stack Journal App with Next JS, React, Tailwind CSS, Prisma, Neon, Clerk, ArcJet, Shadcn UI Tutorial 🔥🔥
 ## https://youtu.be/cYGAPVUtQ-U
 
@@ -20,3 +21,6 @@ PIXABAY_API_KEY=
 
 ARCJET_KEY=
 ```
+=======
+# Mindly
+>>>>>>> 6ebb8425847af2eb6d4979366a9711f429e01246
