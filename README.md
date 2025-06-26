@@ -1,5 +1,7 @@
-<<<<<<< HEAD
-# Full Stack Journal App with Next JS, React, Tailwind CSS, Prisma, Neon, Clerk, ArcJet, Shadcn UI Tutorial 🔥🔥
+# Mindly
+
+A modern journaling and mood tracking app built with Next.js, React, Tailwind CSS, Prisma, Neon, Clerk, ArcJet, and Shadcn UI.
+
 ## https://youtu.be/cYGAPVUtQ-U
 
 ![image](https://github.com/user-attachments/assets/8e4fbd95-40af-4496-a319-dd74d3954814)
@@ -21,6 +23,3 @@ PIXABAY_API_KEY=
 
 ARCJET_KEY=
 ```
-=======
-# Mindly
->>>>>>> 6ebb8425847af2eb6d4979366a9711f429e01246

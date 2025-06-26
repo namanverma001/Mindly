@@ -33,8 +33,7 @@ export default function DeleteDialog({ entryId }) {
       setDeleteDialogOpen(false);
       toast.error("Journal entry deleted successfully");
       router.push(
-        `/collection/${
-          deletedEntry.collectionId ? deletedEntry.collectionId : "unorganized"
+        `/collection/${deletedEntry.collectionId ? deletedEntry.collectionId : "unorganized"
         }`
       );
     }
@@ -64,7 +63,7 @@ export default function DeleteDialog({ entryId }) {
           <AlertDialogCancel>Cancel</AlertDialogCancel>
           <Button
             onClick={handleDelete}
-            className="bg-red-500 hover:bg-red-600"
+            className="bg-black hover:bg-gray-900"
             disabled={isDeleting}
           >
             {isDeleting ? "Deleting..." : "Delete"}

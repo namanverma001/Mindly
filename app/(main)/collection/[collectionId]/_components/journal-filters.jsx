@@ -119,7 +119,7 @@ export function JournalFilters({ entries }) {
           <Button
             variant="ghost"
             onClick={clearFilters}
-            className="text-orange-600"
+            className="text-black"
           >
             Clear Filters
           </Button>
@@ -128,7 +128,7 @@ export function JournalFilters({ entries }) {
 
       {/* Results Summary */}
       <div className="text-sm text-gray-500">
-        Showing {filteredEntries.length} of {entries.length} entries
+        {filteredEntries.length} entries found
       </div>
 
       {/* Entries List */}

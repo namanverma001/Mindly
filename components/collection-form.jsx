@@ -33,7 +33,7 @@ const CollectionForm = ({ onSuccess, loading, open, setOpen }) => {
           <DialogTitle>Create New Collection</DialogTitle>
         </DialogHeader>
         {loading && (
-          <BarLoader className="mb-4" width={"100%"} color="orange" />
+          <BarLoader className="mb-4" width={"100%"} color="black" />
         )}
 
         <form onSubmit={onSubmit} className="space-y-6">

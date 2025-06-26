@@ -150,8 +150,7 @@ export default function JournalEntryPage() {
       }
 
       router.push(
-        `/collection/${
-          actionResult.collectionId ? actionResult.collectionId : "unorganized"
+        `/collection/${actionResult.collectionId ? actionResult.collectionId : "unorganized"
         }`
       );
 
@@ -203,7 +202,7 @@ export default function JournalEntryPage() {
         </h1>
 
         {isLoading && (
-          <BarLoader className="mb-4" width={"100%"} color="orange" />
+          <BarLoader className="mb-4" width={"100%"} color="black" />
         )}
 
         <div className="space-y-2">
@@ -212,9 +211,8 @@ export default function JournalEntryPage() {
             disabled={isLoading}
             {...register("title")}
             placeholder="Give your entry a title..."
-            className={`py-5 md:text-md ${
-              errors.title ? "border-red-500" : ""
-            }`}
+            className={`py-5 md:text-md ${errors.title ? "border-red-500" : ""
+              }`}
           />
           {errors.title && (
             <p className="text-red-500 text-sm">{errors.title.message}</p>
@@ -307,7 +305,7 @@ export default function JournalEntryPage() {
                     </SelectItem>
                   ))}
                   <SelectItem value="new">
-                    <span className="text-orange-600">
+                    <span className="text-black">
                       + Create New Collection
                     </span>
                   </SelectItem>

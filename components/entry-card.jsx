@@ -15,7 +15,7 @@ const EntryCard = ({ entry }) => {
                 <h3 className="font-semibold text-lg">{entry.title}</h3>
               </div>
               <div
-                className="text-gray-600 line-clamp-2"
+                className="text-gray-700 line-clamp-2"
                 dangerouslySetInnerHTML={{ __html: entry.content }}
               />
             </div>
@@ -25,7 +25,7 @@ const EntryCard = ({ entry }) => {
           </div>
           {entry.collection && (
             <div className="mt-4 flex items-center gap-2">
-              <span className="text-sm px-2 py-1 bg-orange-100 text-orange-800 rounded">
+              <span className="text-sm px-2 py-1 bg-gray-100 text-black rounded">
                 {entry.collection.name}
               </span>
             </div>

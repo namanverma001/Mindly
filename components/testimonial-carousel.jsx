@@ -15,7 +15,7 @@ import testimonials from "@/data/testimonials";
 const TestimonialCarousel = () => {
   return (
     <div className="mt-24">
-      <h2 className="text-3xl font-bold text-center text-orange-900 mb-12">
+      <h2 className="text-3xl font-bold text-center text-black mb-12">
         What Our Writers Say
       </h2>
       <Carousel
@@ -32,14 +32,14 @@ const TestimonialCarousel = () => {
               <Card className="bg-white/80 backdrop-blur-sm">
                 <CardContent className="p-6">
                   <blockquote className="space-y-4">
-                    <p className="text-orange-700 italic">
+                    <p className="text-gray-700 italic">
                       &quot;{testimonial.text}&quot;
                     </p>
                     <footer>
-                      <div className="font-semibold text-orange-900">
+                      <div className="font-semibold text-black">
                         {testimonial.author}
                       </div>
-                      <div className="text-sm text-orange-600">
+                      <div className="text-sm text-gray-600">
                         {testimonial.role}
                       </div>
                     </footer>
